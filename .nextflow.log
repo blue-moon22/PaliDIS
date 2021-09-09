@@ -1,0 +1,41 @@
+Sep-08 10:01:16.579 [main] DEBUG nextflow.cli.Launcher - $> nextflow palidis.nf
+Sep-08 10:01:16.649 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 21.04.3
+Sep-08 10:01:16.676 [main] INFO  nextflow.cli.CmdRun - Launching `palidis.nf` [stoic_montalcini] - revision: 7bea3ab241
+Sep-08 10:01:16.689 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /users/k1809704/Palidis/nextflow.config
+Sep-08 10:01:16.690 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /users/k1809704/Palidis/nextflow.config
+Sep-08 10:01:16.707 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Sep-08 10:01:17.430 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; plugins-dir=/users/k1809704/.nextflow/plugins
+Sep-08 10:01:17.431 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Sep-08 10:01:17.436 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins local root: .nextflow/plr/21921f6807262d1f701978cdf8a1f5c4
+Sep-08 10:01:17.446 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Sep-08 10:01:17.448 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Sep-08 10:01:17.452 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Sep-08 10:01:17.462 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Sep-08 10:01:17.462 [main] DEBUG nextflow.plugin.PluginsFacade - Plugin 'start' is not required in self-contained mode -- ignoring it for plugins: [nf-tower@1.1.0]
+Sep-08 10:01:17.530 [main] DEBUG nextflow.Session - Session uuid: 99817e47-c47e-4896-978e-5132bfdef233
+Sep-08 10:01:17.530 [main] DEBUG nextflow.Session - Run name: stoic_montalcini
+Sep-08 10:01:17.531 [main] DEBUG nextflow.Session - Executor pool size: 24
+Sep-08 10:01:17.556 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 21.04.3 build 5563
+  Created: 21-07-2021 16:57 UTC (17:57 BST)
+  System: Linux 3.10.0-1160.36.2.el7.x86_64
+  Runtime: Groovy 3.0.7 on OpenJDK 64-Bit Server VM 12.0.1+12
+  Encoding: UTF-8 (UTF-8)
+  Process: 253241@login3.pri.rosalind2.alces.network [10.10.0.23]
+  CPUs: 24 - Mem: 187.4 GB (51.5 GB) - Swap: 7.9 GB (7.6 GB)
+Sep-08 10:01:17.587 [main] DEBUG nextflow.Session - Work-dir: /users/k1809704/Palidis/work [nfs]
+Sep-08 10:01:17.709 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[GoogleLifeSciencesExecutor, AwsBatchExecutor, IgExecutor]
+Sep-08 10:01:17.724 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Sep-08 10:01:17.736 [main] DEBUG nextflow.Session - Observer factory: TowerFactory
+Sep-08 10:01:17.860 [main] DEBUG nextflow.Session - Session start invoked
+Sep-08 10:01:18.011 [SIGINT handler] DEBUG nextflow.Session - Session aborted -- Cause: SIGINT
+Sep-08 10:01:18.892 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Sep-08 10:01:18.918 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: palmem, getITRs, collectAnnotations, clusterReads, mapReads2, mapReads1, convertToFasta, getCandidateITRs, buildDB
+Sep-08 10:01:18.955 [main] DEBUG nextflow.Session - Ignite dataflow network (0)
+Sep-08 10:01:18.955 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
+Sep-08 10:01:18.955 [main] DEBUG nextflow.Session - Session await
+Sep-08 10:01:18.956 [main] DEBUG nextflow.Session - Session await > all process finished
+Sep-08 10:01:18.956 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Sep-08 10:01:18.960 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=0; peakCpus=0; peakMemory=0; ]
+Sep-08 10:01:18.980 [main] DEBUG nextflow.CacheDB - Closing CacheDB done
+Sep-08 10:01:19.005 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
